@@ -24,7 +24,7 @@
 
 # 📖 [Metrics webapp] <a name="about-project"></a>
 
-**[Metrics webapp]** It is mobile web application to check a list of metrics
+**[Metrics webapp]** Is a web app that publishes information on breweries, cideries, brewpubs, and bottleshops for a specific city of your choice.
 
 # 🛠 Built With <a name="built-with">Technologies</a>
 
@@ -119,10 +119,8 @@ If you like this project please leave a comment,and I will get in touch with you
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- The original design ideal by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+- The original design ideal by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
 - Project from [Microverse](https://www.microverse.org/) React and Application Materials module.
-- Images inspired by [Unsplash](https://unsplash.com/).
-- Topic inspired by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
