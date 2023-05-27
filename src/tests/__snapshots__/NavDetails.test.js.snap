@@ -1,29 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home renders component correctly 1`] = `
-<div>
+exports[`Test for details Nav snapshot for details Nav 1`] = `
+<DocumentFragment>
   <header>
     <nav>
       <div
         class="logo"
       >
-        <svg
-          aria-hidden="true"
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium back-icon css-i4bv87-MuiSvgIcon-root"
-          data-testid="KeyboardArrowLeftIcon"
-          focusable="false"
-          viewBox="0 0 24 24"
+        <a
+          href="/"
         >
-          <path
-            d="M15.41 16.59 10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"
-          />
-        </svg>
-        <h2>
-          2023
-        </h2>
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium back-icon css-i4bv87-MuiSvgIcon-root"
+            data-testid="KeyboardArrowLeftIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.41 16.59 10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"
+            />
+          </svg>
+        </a>
       </div>
       <p>
-        Texas Breweries
+        City Breweries
       </p>
       <div
         class="navIcons"
@@ -53,61 +54,5 @@ exports[`Home renders component correctly 1`] = `
       </div>
     </nav>
   </header>
-  <main>
-    <div
-      class="searchBox"
-    >
-      <form>
-        <h3>
-          Search city
-        </h3>
-        <label
-          class="searchLebal"
-          for="serach"
-        >
-          <input
-            id="serach"
-            placeholder="Search city"
-            type="text"
-          />
-        </label>
-      </form>
-    </div>
-    <section
-      class="main-header"
-    >
-      <div
-        class="tx-map"
-      >
-        <img
-          alt="Texas map"
-          class="tx-map-img"
-          src="texas.svg"
-        />
-      </div>
-      <div
-        class="h-details"
-      >
-        <div>
-          <h2>
-            Texas
-          </h2>
-          <p>
-            0
-             
-            Breweries
-          </p>
-        </div>
-      </div>
-    </section>
-    <p
-      class="h-status"
-    >
-      STATUS BY CITY
-    </p>
-    <p>
-      Loading
-    </p>
-  </main>
-</div>
+</DocumentFragment>
 `;

@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { fetchData } from '../redux/texas/texasSlice';
 import texas from '../assets/texas.svg';
 import '../css/Home.css';
@@ -31,10 +31,27 @@ export default function Home() {
     }
   });
 
+  const [searchCity, setSearchCity] = useState('');
+  const searchInput = searchCity.toLowerCase();
+  const citySearch = newBreweries.filter((el) => el.city.toLowerCase().includes(searchInput));
+
   return (
     <>
       <Navigation />
       <main>
+        <div className="searchBox">
+          <form>
+            <h3>Search city</h3>
+            <label className="searchLebal" htmlFor="serach">
+              <input
+                type="text"
+                id="serach"
+                onChange={(e) => setSearchCity(e.target.value)}
+                placeholder="Search city"
+              />
+            </label>
+          </form>
+        </div>
         <section className="main-header">
           <div className="tx-map">
             <img src={texas} className="tx-map-img" alt="Texas map" />
@@ -55,7 +72,7 @@ export default function Home() {
           <p>Loading</p>
         ) : (
           <ul className="cities">
-            {newBreweries.map((data) => (
+            {citySearch.map((data) => (
               <City
                 key={data.city}
                 city={data.city}

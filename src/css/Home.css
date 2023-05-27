@@ -5,6 +5,33 @@ main {
   padding: 0;
 }
 
+.searchBox {
+  display: flex;
+}
+
+.searchBox form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  background-color: #cc3c74;
+  padding-bottom: 10px;
+}
+
+.searchBox form h3 {
+  margin: 0;
+  color: #fff;
+}
+
+.searchBox form input {
+  border: none;
+  padding: 3px;
+}
+
+.searchBox form input:focus {
+  border: none;
+}
+
 .main-header {
   display: flex;
   background-color: #f04c8c;
@@ -63,6 +90,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  background-color: #cc3c74;
 }
 
 .city {
@@ -72,16 +100,8 @@ main {
   flex-direction: column;
 }
 
-.city:nth-child(3n-1) {
+.city:nth-child(3n -1) {
   background-color: #f04c8c;
-}
-
-.city:nth-child(3n + 1) {
-  background-color: #cc3c74;
-}
-
-.city:nth-child(3n) {
-  background-color: #cc436a;
 }
 
 .city a {
@@ -104,10 +124,12 @@ main {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  font-weight: bold;
 }
 
 .city a h5 {
   margin: 0;
   padding: 0;
   opacity: 0.5;
+  font-weight: bold;
 }

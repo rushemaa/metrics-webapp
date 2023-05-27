@@ -53,6 +53,4 @@ export const texasSlice = createSlice({
   },
 });
 
-// export const { fruits, fruit } = fruitsSlice.actions;
-
 export default texasSlice.reducer;

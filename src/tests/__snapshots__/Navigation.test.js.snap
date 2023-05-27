@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home renders component correctly 1`] = `
-<div>
+exports[`Test for Home Nav snapshot for Home Nav 1`] = `
+<DocumentFragment>
   <header>
     <nav>
       <div
@@ -53,61 +53,5 @@ exports[`Home renders component correctly 1`] = `
       </div>
     </nav>
   </header>
-  <main>
-    <div
-      class="searchBox"
-    >
-      <form>
-        <h3>
-          Search city
-        </h3>
-        <label
-          class="searchLebal"
-          for="serach"
-        >
-          <input
-            id="serach"
-            placeholder="Search city"
-            type="text"
-          />
-        </label>
-      </form>
-    </div>
-    <section
-      class="main-header"
-    >
-      <div
-        class="tx-map"
-      >
-        <img
-          alt="Texas map"
-          class="tx-map-img"
-          src="texas.svg"
-        />
-      </div>
-      <div
-        class="h-details"
-      >
-        <div>
-          <h2>
-            Texas
-          </h2>
-          <p>
-            0
-             
-            Breweries
-          </p>
-        </div>
-      </div>
-    </section>
-    <p
-      class="h-status"
-    >
-      STATUS BY CITY
-    </p>
-    <p>
-      Loading
-    </p>
-  </main>
-</div>
+</DocumentFragment>
 `;

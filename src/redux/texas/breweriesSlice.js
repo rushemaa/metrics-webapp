@@ -53,6 +53,4 @@ export const breweriesSlice = createSlice({
   },
 });
 
-// export const { fruits, fruit } = fruitsSlice.actions;
-
 export default breweriesSlice.reducer;
