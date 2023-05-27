@@ -1,0 +1,113 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  display: flex;
+  background-color: #f04c8c;
+  color: #fff;
+  height: 150px;
+}
+
+.tx-map {
+  flex: 1 1 0;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.tx-map-img {
+  max-height: 130px;
+  opacity: 0.3;
+}
+
+.h-details {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.h-details div {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 32%;
+  margin-left: 20px;
+}
+
+.h-details h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.h-details p {
+  margin: 0;
+  padding: 0;
+  opacity: 0.8;
+}
+
+.h-status {
+  background-color: #cc3c74;
+  margin: 0;
+  padding: 1px 10px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.cities {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.city {
+  list-style: none;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.city:nth-child(3n-1) {
+  background-color: #f04c8c;
+}
+
+.city:nth-child(3n + 1) {
+  background-color: #cc3c74;
+}
+
+.city:nth-child(3n) {
+  background-color: #cc436a;
+}
+
+.city a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.arrowRigght {
+  opacity: 0.5;
+}
+
+.city a h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.city a h5 {
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+}
