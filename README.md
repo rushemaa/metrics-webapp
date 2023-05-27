@@ -60,10 +60,10 @@ In this project:
 
 ### Key Features <a name="key-features">
 
-- **[key_feature_1]** This project, built React and Redux.
-- **[key_feature_2]** Mobile Version.
-- **[key_feature_3]** Single-page application (SPA)
-- **[key_feature_4]** The data retrieved from the API
+- **[]** This project, built React and Redux.
+- **[]** Mobile Version.
+- **[]** Single-page application (SPA)
+- **[]** The data retrieved from the API
   </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -97,9 +97,7 @@ To get a local copy up and running,clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- ***
-- ***
-- ***
+- Customizing the home page for the better user experience
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
