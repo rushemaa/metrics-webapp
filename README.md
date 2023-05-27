@@ -60,10 +60,10 @@ In this project:
 
 ### Key Features <a name="key-features">
 
-- **[]** This project, built React and Redux.
-- **[]** Mobile Version.
-- **[]** Single-page application (SPA)
-- **[]** The data retrieved from the API
+- This project, built React and Redux.
+- Mobile Version.
+- Single-page application (SPA)
+- The data retrieved from the API
   </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
