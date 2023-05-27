@@ -72,7 +72,8 @@ In this project:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/rushemaa/metrics-webapp)
+- [Live Demo Link](https://tx-breweries.onrender.com)
+- [Video Demo](https://www.loom.com/share/99a54ff913bc4fca93fec0f5a4f7cf60)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
